@@ -1,4 +1,4 @@
-module git.bangmarcel.art/marcel/bool64
+module github.com/MarcelArt/bool64
 
 go 1.26.3
 

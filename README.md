@@ -1,6 +1,6 @@
 # bool64
 
-[![Go Reference](https://pkg.go.dev/badge/git.bangmarcel.art/marcel/bool64.svg)](https://pkg.go.dev/git.bangmarcel.art/marcel/bool64)
+[![Go Reference](https://pkg.go.dev/badge/github.com/MarcelArt/bool64.svg)](https://pkg.go.dev/github.com/MarcelArt/bool64)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 `bool64` is a fast, lightweight, and zero-allocation Go library for managing a set of up to 64 boolean flags in a single `uint64` wrapper using bitwise operations. It is perfect for handling user permissions, settings/configuration flags, state sets, and any other bitmask-oriented logic efficiently.
@@ -10,7 +10,7 @@
 To install `bool64`, use `go get`:
 
 ```bash
-go get git.bangmarcel.art/marcel/bool64
+go get github.com/MarcelArt/bool64
 ```
 
 ## Features
@@ -30,7 +30,7 @@ package main
 
 import (
 	"fmt"
-	"git.bangmarcel.art/marcel/bool64"
+	"github.com/MarcelArt/bool64"
 )
 
 const (

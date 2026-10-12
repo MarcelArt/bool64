@@ -3,7 +3,7 @@ package bool64_test
 import (
 	"testing"
 
-	"git.bangmarcel.art/marcel/bool64"
+	"github.com/MarcelArt/bool64"
 	"github.com/stretchr/testify/suite"
 )
 
